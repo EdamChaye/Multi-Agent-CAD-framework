@@ -1,0 +1,34 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# Local entry points and test scripts
+main.py
+
+# Project Specific: Visual Outputs & Logs
+# Ignore all files in these folders...
+docs/visual_qa/*
+logs/*
+temp/*
+
+# ...BUT do not ignore the .gitkeep files (preserves the folder structure)
+!docs/visual_qa/.gitkeep
+!logs/.gitkeep
+!temp/.gitkeep
+
+# Project Specific: Local Visualization artifacts
+graph_visualization.png
+model_output.png
+
+# IDE Settings
+.vscode/
+.idea/
