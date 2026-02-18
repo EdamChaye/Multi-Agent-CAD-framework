@@ -6,7 +6,7 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
+# Virtual environments and keys
 .venv/
 venv/
 .env
@@ -20,7 +20,6 @@ docs/visual_qa/*
 logs/*
 temp/*
 
-# ...BUT do not ignore the .gitkeep files (preserves the folder structure)
 !docs/visual_qa/.gitkeep
 !logs/.gitkeep
 !temp/.gitkeep
